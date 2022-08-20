@@ -14,3 +14,14 @@ text-align: center;
     width: 80%;
     margin: auto;
 }
+
+p{
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+h1,h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 3em;
+}
