@@ -25,3 +25,10 @@ h1,h2{
     font-family: 'Staatliches', cursive;
     font-size: 3em;
 }
+
+.video{
+
+    text-align: center;
+    width: 50%;
+    float: left;
+}
