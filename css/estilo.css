@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    }
+    ol, ul {
+        list-style: none;
+    }
+    
 body{
     background-color:#48D1CC ;
 }
@@ -19,12 +28,24 @@ p{
     font-family: 'Silkscreen', cursive;
     font-size: 1.5em;
     text-align: justify;
+    line-height: 1.5;
 }
 
 h1,h2{
     font-family: 'Staatliches', cursive;
     font-size: 3em;
     text-align: center ;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.menu{
+    text-align: center;
+    font-size: 25px;
+}
+
+.menu ul li {
+    line-height: 1.5;
 }
 
 .video{
@@ -32,7 +53,9 @@ h1,h2{
     text-align: center;
     width: 50%;
     float: left;
+    margin-bottom: 2%;
 }
+
 
 footer{
     background-color: rgb(0,255,255);
@@ -45,9 +68,37 @@ header{
 
     background-color: rgb(0,255,255);
     text-align: center;
+    padding: 1%;
 }
 
 footer p{
 
     text-align: center;
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+    font-family: 'Staatliches', cursive;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #6805F2;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #fff;
+    background-color: black;
+    padding: 0.7%;
+    border-radius: 25px;
+    
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(4, 4, 4);
+  }
