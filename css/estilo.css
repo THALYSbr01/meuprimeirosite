@@ -62,6 +62,7 @@ footer{
     clear: both;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
+    
 }
 
 header{
@@ -78,7 +79,7 @@ footer p{
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: rgb(0, 60, 255);
     font-family: 'Staatliches', cursive;
     font-weight: bolder;
     text-decoration: none;
@@ -86,7 +87,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: #6805F2;
+    color: rgb(0, 60, 255);
   }
   
   /* mouse over link */
@@ -101,4 +102,17 @@ a:link {
   /* selected link */
   a:active {
     color: rgb(4, 4, 4);
+  }
+  .ani{
+    width: 300px;
+    height: 800px;
+    background-color: rgb(0, 60, 255);
+    margin-bottom: 2%;
+    margin-top: 2%;
+    transition: width 2s;
+  }
+
+  .ani:hover{
+    width: 800px;
+    
   }
